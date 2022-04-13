@@ -20,7 +20,7 @@ git clone YOURFORK
 If you are using the TU gitlab, please add the following accounts:
 - ischubert
 - driessdy
-- TODO
+- levit
 The role should be at least `Reporter` for these accounts.
 
 ## Ex. 0.4 Tell us where your repo is located
@@ -35,10 +35,10 @@ Send an E-Mail to ingmar.schubert@tu-berlin.de containing the following:
 Throughout this course, each assignment will be given as a subfolder of `ai-student-workspace`. For example, the assignment subfolder for the present assignment is `00-test-setup`. Inside each assignment subfolder, you will find
 1. Files containing code that you **should not edit**
 2. One `README.md` that explains the task
-3. One single file that you should edit according to the task. For the present assignment, this file is called `00-solution.py`. For later assignments, these files will be called `01-solution.py`, `02-solution.py`, and so on. **This is the only file that should be edited**.
+3. One single file that you should edit according to the task. For the present assignment, this file is called `solution_00.py`. For later assignments, these files will be called `solution_01.py`, `solution_02.py`, and so on. **This is the only file that should be edited**.
 
 ## Ex. 0.6: Complete assignment
-Inside `00-solution.py`, there will be functions / code that you should change so that they generate the desired output.
+Inside `solution_00.py`, there will be functions / code that you should change so that they generate the desired output.
 
 As an example, please modify the function body of the function `y = is_even_and_positive(x)` so that
 
@@ -56,13 +56,13 @@ from module_1 import is_positive, is_even
 Once you are finished, *stage* your changes using
 ```
 cd ai-student-workspace/00-test-setup
-git add 00-solution.py
+git add solution_00.py
 ```
 Then *commit* your changes using
 ```
 git commit
 ```
-This will save your changes to `00-solution.py`. You will be asked to provide a commit message.
+This will save your changes to `solution_00.py`. You will be asked to provide a commit message.
 
 Push your new commit to your forked repository using
 ```
@@ -75,4 +75,4 @@ The next assignment will be added to this repo, as a new subfolder. In order to 
 
 TODO detailed explanation
 
-If you only committed changes in `00-solution.py`, you will be able to merge without conflicts.
+If you only committed changes in `solution_00.py`, you will be able to merge without conflicts.
