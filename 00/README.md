@@ -21,6 +21,7 @@ If you are using the TU gitlab, please add the following accounts:
 - ischubert
 - driessdy
 - levit
+
 The role should be at least `Reporter` for these accounts.
 
 ## Ex. 0.4 Tell us where your repo is located
