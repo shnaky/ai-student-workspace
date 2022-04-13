@@ -70,9 +70,20 @@ git push
 ```
 After the assignment deadline, we can now automatically test whether `is_even` returns correct values.
 
-## Ex. 0.8: Pull before the next assignment
+## Ex. 0.8: Merge your fork of this repo after the next assignment has been published
 The next assignment will be added to this repo, as a new subfolder. In order to bring your own fork up-to-date with these changes, you need to merge.
 
-TODO detailed explanation
+For this, first add the URL of this repository as upstream to your fork (you only need to do this once):
+```
+git remote add upstream git@git.tu-berlin.de:lis-public/ai-student-workspace.git
+```
+By typing `git remote -v`, you can verify that there are 2 remote urls added to your fork now: The url for "origin" contains the branches of your fork, "upstream" contains the branches of this repo.
 
-If you only committed changes in `solution_00.py`, you will be able to merge without conflicts.
+Every time you want to merge your repo with new updates on the upstream, run
+```
+git fetch upstream
+git merge upstream/main origin/main
+```
+`fetch` checks for new commits found at the upstream url, and `merge` merges the upstream branch (called `upstream/main`) with your branch (called `origin/main`).
+
+If you only committed changes in `solution_00.py`, you will be able to merge without conflicts (fast-forward).
