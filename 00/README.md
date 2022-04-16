@@ -29,7 +29,7 @@ Send an E-Mail to ingmar.schubert@tu-berlin.de containing the following:
 1. Your name
 2. Your student ID number (Matrikelnummer)
 3. The names and student ID numbers of everybody else in your group.
-4. The URL of your repo, i.e. `YOURFORK`.
+4. The SSH-URL of your repo (that's the one that starts with `git@...`), i.e. `YOURFORK`.
 
 ## Ex. 0.5: Open assignment
 Throughout this course, each assignment will be given as a subfolder of `ai-student-workspace`. For example, the assignment subfolder for the present assignment is `00`. Inside each assignment subfolder, you will find
