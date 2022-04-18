@@ -8,7 +8,7 @@ To install `git`, please follow the instructions here: https://git-scm.com/book/
 
 ## Ex. 0.2: Fork this repo and clone it from your own git repository
 1. Click the 'fork' button on top right of the gitlab webpage to create your own fork of this repo on this gitlab.
-2. Open a bash shell and navigate to a folder of your choice. The folder containing this repo will become a subfolder of this folder.
+2. Open a bash shell and navigate to a folder of your choice.
 3. Clone the repo using `git clone YOURFORK`. Here, `YOURFORK` is the URL of your fork of this repo. For example, if you forked directly on this gitlab, it will look like this: `git@git.tu-berlin.de:YOUR_USER_NAME/PATH/TO/REPO.git`
 ```
 git clone YOURFORK
@@ -68,7 +68,7 @@ Push your new commit to your forked repository using
 ```
 git push
 ```
-After the assignment deadline, we can now automatically test whether `is_even` returns correct values.
+After the assignment deadline, we will automatically test whether `is_even` returns correct values.
 
 ## Ex. 0.8: Merge your fork of this repo after the next assignment has been published
 The next assignment will be added to this repo, as a new subfolder. In order to bring your own fork up-to-date with these changes, you need to merge.
@@ -86,4 +86,4 @@ git merge upstream/main origin/main
 ```
 `fetch` checks for new commits found at the upstream url, and `merge` merges the upstream branch (called `upstream/main`) with your branch (called `origin/main`).
 
-If you only committed changes in `solution_00.py`, you will be able to merge without conflicts (fast-forward).
+If you only committed changes in `solution_00.py`, you will be able to merge automatically (without conflicts).
