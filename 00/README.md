@@ -1,3 +1,5 @@
+This is a pdf version of https://git.tu-berlin.de/lis-public/ai-student-workspace/-/blob/main/00/README.md
+
 # 0th Assignment: Test your setup
 This assignment only contains a simple test task. You should use it to set up your workflow. Make sure everything works before the graded assignments will start next week. The current assignment will not be graded.
 
@@ -7,7 +9,7 @@ This assignment only contains a simple test task. You should use it to set up yo
 To install `git`, please follow the instructions here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
 
 ## Ex. 0.2: Fork this repo and clone it from your own git repository
-1. Click the 'fork' button on top right of the gitlab webpage to create your own fork of this repo on this gitlab.
+1. Click the 'fork' button on top right of the gitlab webpage of this repo to create your own fork on this gitlab.
 2. Open a bash shell and navigate to a folder of your choice.
 3. Clone the repo using `git clone YOURFORK`. Here, `YOURFORK` is the URL of your fork of this repo. For example, if you forked directly on this gitlab, it will look like this: `git@git.tu-berlin.de:YOUR_USER_NAME/PATH/TO/REPO.git`
 ```
