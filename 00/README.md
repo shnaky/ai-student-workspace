@@ -9,7 +9,7 @@ This assignment only contains a simple test task. You should use it to set up yo
 To install `git`, please follow the instructions here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
 
 ## Ex. 0.2: Fork this repo and clone it from your own git repository
-1. Click the 'fork' button on top right of the gitlab webpage of this repo to create your own fork on this gitlab.
+1. Click the 'fork' button on top right of the gitlab webpage of the course repo at https://git.tu-berlin.de/lis-public/ai-student-workspace/ to create your own fork on this gitlab.
 2. Open a bash shell and navigate to a folder of your choice.
 3. Clone the repo using `git clone YOURFORK`. Here, `YOURFORK` is the URL of your fork of this repo. For example, if you forked directly on this gitlab, it will look like this: `git@git.tu-berlin.de:YOUR_USER_NAME/PATH/TO/REPO.git`
 ```
