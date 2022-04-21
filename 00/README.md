@@ -24,12 +24,16 @@ If you are using the TU gitlab, please add the following accounts:
 The role should be at least `Reporter` for these accounts.
 
 ## Ex. 0.4 Tell us where your repo is located
-Send an E-Mail to ingmar.schubert@tu-berlin.de containing the following:
+Fill out the questionnaire on ISIS. The questionnaire will ask you for the following:
 
 1. Your name
 2. Your student ID number (Matrikelnummer)
-3. The names and student ID numbers of everybody else in your group.
+3. Your E-Mail address
 4. The SSH-URL of your repo (that's the one that starts with `git@...`), i.e. `YOURFORK`.
+
+You can form groups of up to 3 students. If you are in the same group, you can use the same URL.
+However, each of you should still fill out the questionnaire individually.
+Furthermore, please ensure that you are able to present your group's solution during the tutorials.
 
 ## Ex. 0.5: Open assignment
 Throughout this course, each assignment will be given as a subfolder of `ai-student-workspace`. For example, the assignment subfolder for the present assignment is `00`. Inside each assignment subfolder, you will find
