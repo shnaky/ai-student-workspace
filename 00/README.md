@@ -28,10 +28,9 @@ The role should be at least `Reporter` for these accounts.
 ## Ex. 0.4 Tell us where your repo is located
 Fill out the questionnaire on ISIS. The questionnaire will ask you for the following:
 
-1. Your name
-2. Your student ID number (Matrikelnummer)
-3. Your E-Mail address
-4. The SSH-URL of your repo (that's the one that starts with `git@...`), i.e. `YOURFORK`.
+1. Your student ID number (Matrikelnummer)
+2. Your E-Mail address
+3. The SSH-URL of your repo (that's the one that starts with `git@...`), i.e. `YOURFORK`.
 
 You can form groups of up to 3 students. If you are in the same group, you can use the same URL.
 However, each of you should still fill out the questionnaire individually.
