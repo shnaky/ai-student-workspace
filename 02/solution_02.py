@@ -1,5 +1,6 @@
 import numpy as np
-import matplotlib.pyplot as plt
+
+# import matplotlib.pyplot as plt
 
 
 def regression_based_on_data(l, u, a, y):
@@ -57,11 +58,11 @@ def find_maxima(l, u, f, F, w):
     return sample[np.argmax(poly)]
 
 
-def plot_regression(a, y, f):
-
-    plt.plot(a, f)
-    plt.scatter(a, y)
-    plt.xlabel("a")
-    plt.ylabel("y")
-    plt.grid(True)
-    plt.show()
+# def plot_regression(a, y, f):
+#
+#     plt.plot(a, f)
+#     plt.scatter(a, y)
+#     plt.xlabel("a")
+#     plt.ylabel("y")
+#     plt.grid(True)
+#     plt.show()
